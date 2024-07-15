@@ -1,0 +1,610 @@
+
+    * {
+        padding: 0px;
+        font-family: "Montserrat", sans-serif;
+        color: black;
+
+    }
+    * .bt:hover{
+        /* opacity: 70%; */
+        
+        transition: 0.3s;
+        background-color: transparent;
+        color:rgba(90, 94, 93, 0.67);
+    }
+    * .btn:hover{
+        /* opacity: 70%; */
+        background-color: rgba(90, 94, 93, 0.67);
+        transition: 0.5s;
+    }
+
+
+    .logo {
+        /* mix-blend-mode: color-burn; */
+        align-items: center;
+        /* height: 500px;
+        width: auto; */
+    }
+
+    .bt {
+        padding: 12px 24px;
+        border: none;
+        border-radius: 8px;
+        font-size: 14px;
+        font-weight: 600;
+        background-color: transparent;
+        color: rgb(16, 15, 15);
+    }
+
+    .btn {
+        padding: 12px 24px;
+        background-color: aliceblue;
+        border-radius: 8px;
+        font-size: 14px;
+        font-weight: 600;
+
+    }
+
+    .Nav {
+        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 24px 32px;
+    }
+
+    .Nav img {
+        height: 100px;
+        width: auto;
+    }
+
+    .NavR {
+        display: flex;
+        gap: 20px;
+
+    }
+
+    .Navl {
+        display: flex;
+        gap: 20px;
+        font-weight: 600;
+        color: aliceblue;
+    }
+
+    .Navl svg {
+        width: 40px;
+        height: 50px;
+    }
+
+    .FindFlight {
+        display: flex;
+        gap: 6px;
+        align-items: center;
+    }
+
+    .FindStays {
+        display: flex;
+        gap: 6px;
+        align-items: center;
+    }
+    .FindFlight:hover .FindStays:hover{
+        color: #408346;
+    }
+    .HeroContent h3 {
+        font-size: 60px;
+        font-weight: 5000;
+        /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+        text-align: center;
+        /* color: #fafbfc; */
+    }
+
+    .HeroContent h1 {
+        font-size: 80px;
+        font-weight: 800;
+        letter-spacing: 5px;
+        /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+        text-align: center;
+        /* -webkit-text-stroke: 1px white; */
+        color: #fafbfc;
+
+    }
+
+    .HeroContent p {
+        font-size: 40px;
+        font-weight: 600;
+        color: aliceblue;
+        -webkit-text-stroke: 1px black;
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    }
+
+    .HeroContent {
+        margin-top: 94px;
+        text-align: center;
+        /* margin-bottom: 150px */
+    }
+
+    .maincontent {
+        padding: 30px;
+        background-color: #fafbfc;
+    }
+
+    .Herosection {
+        background-color: cadetblue;
+        border-radius: 8px;
+        height: auto;
+        background-image: url(./images/pexels-pritush-4411191.jpg);
+        background-size: cover;
+        /* background-position: center; */
+        z-index: 0;
+        color: aliceblue;
+
+    }
+
+    .Herosection::after {
+        content: "";
+        /* width: 100%;
+        height: 100%; */
+        z-index: -1;
+        top: 0px;
+        position: absolute;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%);
+        border-radius: 8px;
+    }
+
+    .form {
+        border: 2px solid rgb(255, 255, 255);
+        border-radius: 3px;
+        width: 600px;
+        padding: 5px;
+        height: 20px;
+        background-color: white;
+        padding: 12px;
+    }
+
+    .formout {
+        padding-bottom: 50px;
+        padding-top: 0px;
+        display: flex;
+        justify-content: center;
+        box-shadow: 0px 4px 16px 0px #f06b0626;
+
+    }
+
+    .destinationtitle {
+        padding: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+
+    }
+
+    .destination {
+        padding: 30px;
+        /* background-color: rgb(233, 222, 171); */
+    }
+    .btnout:hover{
+        background-color: rgba(111, 110, 107, 0.718);
+        transition: 0.5s;
+    }
+
+    .btnout {
+        background-color: transparent;
+        border: 1px solid rgb(0, 0, 0);
+        padding: 12px 14px;
+        border-radius: 2px;
+    }
+
+    .C1 h2 {
+        font-weight: 600;
+        font-size: 32px;
+    }
+
+    .card1 {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        background-color: rgb(245, 236, 236);
+        box-shadow: 0px 4px 16px 0px rgb(0, 0, 0);
+        /* border: 1px solid black; */
+        border-radius: 16px;
+        width: 32%;
+
+    }
+
+    .card1 img {
+        object-fit: cover;
+        width: 130px;
+        height: 130px;
+        border-radius: 20px;
+        padding: 15px;
+    }
+
+    .card1 h4 {
+        font-size: 16px;
+        opacity: 70%;
+        margin-bottom: 8px;
+
+    }
+
+    .card1>div>div {
+        display: flex;
+        gap: 9px;
+        font-weight: 500;
+    }
+
+    .card {
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 25px;
+        column-gap: 16px;
+    }
+
+    .c1 {
+        padding: 30px;
+    }
+    .C1 h2{
+        font-weight: 700;
+        font-size: 40px;
+    }
+    .flightt {
+        background-image: url(./images/flight.jpg);
+        /* height: 600px; */
+        width: 49%;
+        background-size: cover;
+        border-radius: 18px;
+        background-position: center;
+        padding: 370px 24px 16px 24px;
+    }
+
+    .hotell {
+        background-image: url(./images/hotel.jpg);
+        /* height: 600px; */
+        width: 49%;
+        background-size: cover;
+        border-radius: 18px;
+        background-position: center;
+        padding: 370px 24px 16px 24px;
+    }
+
+    .TBox {
+        display: flex;
+        gap: 1%;
+        padding-top: 20px;
+        padding: 16px;
+        margin-top: 60px;
+
+    }
+    .fbtn:hover{
+        background-color: rgba(190, 209, 202, 0.586);
+        transition: 0.5s;
+    }
+    .fbtn {
+        padding: 12px 24px;
+        background-color: rgb(123, 227, 184);
+        border-radius: 8px;
+        font-size: 14px;
+        font-weight: 600;
+        /* color: #fafbfc; */
+    }
+
+    .te {
+        align-items: center;
+        text-align: center;
+        /* background-color: rgba(244, 230, 230, 0.353) ; */
+        background-size: auto;
+        /* border: 1px solid rgb(230, 245, 235); */
+    }
+
+    .te p {
+        color: #fafbfc;
+    }
+
+    .te h2 {
+        color: #fafbfc;
+    }
+
+    .tex h2 {
+        color: #000000;
+        margin-top: 50px;
+
+    }
+
+    .te h2 {
+        margin-top: 50px;
+    }
+
+    .tex {
+        align-items: center;
+        text-align: center;
+        color: black;
+     
+    }
+    
+
+    .reviewcard {
+        padding: 30px;
+        background-color: #fafbfc;
+        border-radius: 20px;
+        box-shadow: 2px 4px 16px 0px #33351c;
+        
+    }
+    .reviewpseudo{
+        position: relative;
+        z-index: 0;
+        width: 30%;
+        flex-shrink: 0;
+
+    }
+
+    .reviewpseudo::before {
+        content: "";
+        width: 100%;
+        height: 100%;
+        background-color: rgb(197, 197, 119);
+        position: absolute;
+        top: 26px;
+        left: 26px;
+        border-radius: 20px;
+        z-index: -1;
+
+    }
+    .reviewpseudo:hover::before{
+        top: 16px;
+        left: 16px;
+        transition: 300ms;
+    }
+
+    .reviewcard h4 {
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+
+
+    .reviewcard :nth-child(6) {
+        color: #112211;
+        opacity: 70%;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .reviewcard h5 {
+        color: #112211;
+        margin-bottom: 16px;
+        font-size: 14px;
+        text-align: right;
+    }
+
+    .stars .fa {
+        color: rgb(203, 203, 14);
+
+    }
+
+    .stars {
+        font-size: 20px;
+    }
+
+    .goog {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        font-weight: 600;
+        margin-bottom: 40px;
+    }
+
+    .reviewcard img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+    .reviewcardw{
+        display: flex;
+        gap: 45px;
+        overflow-x: visible;
+        overflow-y: hidden;
+        padding: 42px;
+        grid-auto-flow: column;
+    }
+    .reviews{
+        background-color: antiquewhite;
+        border-radius: 25px;
+    }
+    .subscribe img{
+        width: auto;
+        height: 250px;
+        
+        object-fit: cover;
+    }
+    .subscribe{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 30px;
+        background: #ecaccda9;
+        border-radius: 20px;
+        padding: 0 24px;
+    
+    }
+    .subscribe h2{
+        font-size: 44px;
+        line-height: 100%;
+        font-weight: 600;
+    }
+    .subscribe h3{
+        margin-bottom: 8px;
+        opacity: 70%;
+
+    }
+    .subscribe p{
+        margin-bottom: 16px;
+        opacity: 70%;
+
+    }
+    .subscribe input{
+        padding: 15px;
+        border-radius: 12px;
+        width: 350px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+
+    .subscribe button{
+        padding: 15px;
+        background-color: #ea8392;
+        border-radius: 12px;
+    }
+
+    .subscribe button:hover{
+        background-color: #be20458a;
+        transition: 0.5s;
+    }
+
+    .footer{
+        background-color: antiquewhite;
+        padding: 30px;
+        margin-top: 50px;
+        border-radius: 25px;
+    }
+
+    .foot1 img{
+        width: auto;
+        height: 150px;
+    
+    }
+    .subscribe{
+        margin-bottom: 50px;
+    }
+    .social i{
+        font-size: 25px;
+        
+    }
+    .social{
+        display: flex;
+        align-items: center;
+        gap: 12px;
+    }
+    .foot2 h4{
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .foot2 li{
+        font-size: 14px;
+        font-weight: 500;
+        margin-bottom: 12px;
+        opacity: 70%;
+       list-style: none;
+    }
+    .foot{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .destination{
+        background-color: antiquewhite;
+        padding: 30px;
+        border-radius: 25px;
+        height: 1370px;
+    }
+    .TBox{
+        margin-bottom: 60px;
+    }
+
+    .reviews{
+        padding: 30px;
+        
+    }
+    .reviews h2{
+        font-weight: 700;
+        font-size: 40px;
+    }
+    * a{
+        text-decoration: none;
+    }
+    .navl a{
+        color: aqua;
+        background-color: #408346;
+    }
+
+    @media screen and (max-width: 1000px){
+        .Nav{
+            flex-direction: column-reverse;
+            gap: 20px;
+        }
+        .formout{
+            width: 50px;
+            margin: 20px 0px 0px 0px;
+            justify-content: left;
+        }
+        .subscribe img{
+         display: none;
+        }
+        .subscribe button{
+            margin-top: 10px;
+        }
+        }
+    
+
+    @media screen and (max-width: 1140px){
+        .card1{
+            width: 48%;
+        }
+        
+    }
+    @media screen and (max-width:820px){
+        /* .card1{
+            width: 100%;
+        } */
+        /* .reviewcardw{
+            overflow-y: hidden;
+            flex-wrap: wrap;
+            display: flex;
+            justify-content: space-around;
+        } */
+        /* .reviewcard{
+            width: 200px;
+            
+        } */
+    }
+
+    @media screen and (max-width:750px){
+        /* .reviewcard{
+            width: 150px ;
+        } */
+        .foot{
+            flex-wrap: wrap;
+        }
+    @media screen and (max-width:570px){
+        .reviewcardw{
+            flex-wrap: wrap;
+            display: flex;
+            justify-content: start;
+        }
+    }
+
+    @media screen and (max-width:900px){
+        .TBox{
+            flex-wrap: wrap ;
+        }
+        .flightt{
+            width: 100%;
+        }
+        .hotell{
+            width: 100%;
+        }
+    }
+    @media screen and (max-width:1200px) {
+        .subscribe img{
+            width: 100px;
+            height: auto;
+        }   
+    }
+    @media screen and (max-width:620px){
+        .subscribe{
+            background-color: transparent;
+        }
+    }
+}
