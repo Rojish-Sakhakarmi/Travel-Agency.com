@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       * {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+        }
+
+        .b {
+            width: 30%;
+            height: 500px;
+            background-color: rgb(196, 216, 135);
+            padding: 5%;
+        }
+
+        .c {
+            width: 70%;
+            height: 550px;
+            border: 1px solid black;
+            padding: 5%;
+        }
+
+        .a {
+            display: flex;
+            padding: 5%
+        }
+
+        .d {
+            display: flex;
+            justify-content: space-between;
+            
+        }
+
+        #e {
+            height: 50px;
+            width: 250px;
+            font-size: 20px;
+            padding: 8px;
+            display: block;
+            border-radius: 8px;
+        }
+
+        #ef {
+            height: 50px;
+            width: 250px;
+            font-size: 20px;
+            padding: 8px;
+            display: block;
+            border-radius: 8px;
+        }
+
+        #q {
+            height: 50px;
+            width: 250px;
+            font-size: 20px;
+            padding: 8px;
+            display: block;
+            border-radius: 8px;
+        }
+
+        label {
+            display: block;
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        button {
+            background-color: rgb(155, 174, 103);
+            border-radius: 5px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding-left: 40px;
+            padding-right: 40px;
+            position: relative;
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
+        button:hover{
+            background-color: bisque;
+            transition: 1000ms;
+        }
+        .main{
+            align-items: center;
+            justify-content: center;
+            margin-left: 18%;
+            margin-top: 15px;
+        }
+        .c span{
+            font-size: 18px;
+           
+        }
+        .c a{
+            font-size: 18px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="a">
+            <div class="c">
+                <h1> Sign up</h1>
+                <div class="d">
+                    <div>
+                        <label for="q">Full Name </label>
+                    <input type="text" id="q" placeholder="Name"></div>
+                    <br>
+                    <div>
+                        <label for="e">Email Address</label>
+                    <input type="email" id="ef" placeholder="Email">
+                        </div>
+                    <br><br>
+                </div>
+                <br>
+                <label for="s">Password</label>
+                <input type="password" id="e" placeholder="Enter New Password"><br><br>
+                <label for="e">Confirm Password</label>
+                <input type="password" id="e" placeholder="Re-enter Password"><br><br>
+                <button type="submit">
+                    <font class="s"><b>Sign Up</b></font>
+                </button>
+                <br>
+               <span> If you already have account,</span>
+              <a href="./login.html">Login in</a>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
